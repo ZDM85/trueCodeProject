@@ -1,0 +1,46 @@
+@import "../../utils/colors"; 
+
+
+
+.navbar {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    
+    &-header {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        
+        &:hover {
+            color: red;
+        }
+    }
+
+    &-1, &-2, &-3, &-4, &-5 {
+        color: @color;
+        margin-left: 25px; 
+        &:hover {
+            color: red;
+        }
+       
+    }
+
+   
+
+    &-btn {
+        margin-left: 25px;
+        padding: 5px;
+        background-color: @color;
+
+        &:hover {
+            background-color: red;
+        }
+    }
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}

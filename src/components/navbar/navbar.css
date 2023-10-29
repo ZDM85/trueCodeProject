@@ -1,0 +1,41 @@
+.navbar {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.navbar-header {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.navbar-header:hover {
+  color: red;
+}
+.navbar-1,
+.navbar-2,
+.navbar-3,
+.navbar-4,
+.navbar-5 {
+  color: #F2E1C2;
+  margin-left: 25px;
+}
+.navbar-1:hover,
+.navbar-2:hover,
+.navbar-3:hover,
+.navbar-4:hover,
+.navbar-5:hover {
+  color: red;
+}
+.navbar-btn {
+  margin-left: 25px;
+  padding: 5px;
+  background-color: #F2E1C2;
+}
+.navbar-btn:hover {
+  background-color: red;
+}
+.container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+.home {
+  margin-top: 120px;
+  display: flex;
+  width: 1194px;
+  height: 746;
+}
+.home-header {
+  display: flex;
+  flex-direction: column;
+}
+.home-progress {
+  width: 10px;
+  height: 605px;
+}
+.home-name {
+  color: #F23207;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 36px;
+  padding-left: 25px;
+  margin: 5px 0;
+}
+.home-mars {
+  margin-top: 8px;
+}
